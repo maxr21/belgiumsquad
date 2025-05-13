@@ -37,7 +37,7 @@
   pageRef = "zoyasiddiqui"
   weight = 20
 
-  [[main]]
+[[main]]
   name = "Areti Makropoulos"
   parent = "Team Members"
   pageRef = "aretimakropoulos"
