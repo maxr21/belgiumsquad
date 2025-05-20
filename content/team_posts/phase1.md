@@ -6,8 +6,10 @@ description: "Project Description"
 slug: "phase1post"
 tags: ["project", "Setup"]
 authors:
-  - "eric_gerber"
-  - "mark_fontenot"
+  - "mayaellis"
+  - "maxrobinson"
+  - "aretimakropoulos"
+  - "zoyasiddiqui"
 showAuthorsBadges: false
 ---
 
