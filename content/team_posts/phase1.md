@@ -59,7 +59,9 @@ Faye Mulligan is a 26 year old Swiss activist. She works at an organization that
 ### evidence of webscraping
 
 ![webscrape](https://ibb.co/rfX73wt2)
+can also be found at: https://ibb.co/rfX73wt2
 
 ### evidence of api access
 
 ![API](https://ibb.co/x8dF6Tfz)
+can also be foudn at: https://ibb.co/x8dF6Tfz
