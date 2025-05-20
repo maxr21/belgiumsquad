@@ -69,4 +69,4 @@ can also be found at: https://ibb.co/rfX73wt2
 
 ![API](/api.png)
 
-can also be foudn at: https://ibb.co/x8dF6Tfz
+can also be found at: https://ibb.co/x8dF6Tfz
