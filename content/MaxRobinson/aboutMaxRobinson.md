@@ -16,10 +16,6 @@ This is a test of my new blog.
 
 # Max Robinson
 
-## photo of myself at 14
-
-![picture of max][https://www.wimbledonsw19.com/image/actonw3/info/images/MaximillianRobinsonActon.jpg]
-
 ### more about me!
 
 - I am in Leuven, Belgium!

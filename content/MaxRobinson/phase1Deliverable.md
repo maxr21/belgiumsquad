@@ -1,3 +1,15 @@
+---
+title: "Individual Reflection"
+date: 2025-05-20
+draft: false
+description: "reflection for my phase 1 deliverable"
+slug: "phase1" # if you use, needs to be different for every post
+tags: ["authors", "config", "docs"]
+authors:
+  - "maxrobinson"
+showAuthorsBadges: false
+---
+
 # What I have learned!
 
 ## From Guest speakers
@@ -15,5 +27,6 @@ He provided a fresh perspective that I had not considered before. He argued that
 ## Individual Contributions to the project
 
 - Exploring project ideas
-- brainstorming different user types
+- brainstorming different user types and jointly coming up with one
 - testing and verifying API calls are possible for our primary data set
+- testing webscraping is also an option
