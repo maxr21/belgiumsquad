@@ -23,8 +23,12 @@ Outside the classroom, visits to NATO, the European Parliament, and the European
 ### Pictures from Adventures!
 
 
-![Had the amazing opportunity to visit *NATO* and learn more about their role in international government!](/NATO_pic.jpeg)
+![NATO group picture](/NATO_pic.jpeg)
+Had the amazing opportunity to visit **NATO** and learn more about their role in international government!
 
-![Learned more about the *European Parliament*.](/EU_parliament.jpeg)
 
-![Discussed how the *European Commission* is shaping Europe's future.](/EU_commission.jpeg)
+![EU Parliament picture](/EU_parliament.jpeg)
+Learned more about the **European Parliament**.
+
+![EU Commission picture](/EU_commission.jpeg)
+Discussed how the **European Commission** is shaping Europe's future.
