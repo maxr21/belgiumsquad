@@ -60,3 +60,11 @@ This is our ERD for persona 1, the student.
 This is our ERD for persona 2, the policymaker.
 ![erd4_img](er_diagrams-04.jpg)
 This is our ERD for persona 3, the activist.
+
+## Relational Mapping 
+
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/6399ce45-7fe8-4d5b-b456-1b6e986de67d" id="jSzj-C2TrnaZ"></iframe></div>
+
+## SQL DDL for Global Data Model
+
+[SQL File](https://raw.githubusercontent.com/mke27/life/refs/heads/main/database-files/global_db.sql)
