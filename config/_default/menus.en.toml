@@ -20,21 +20,27 @@
   weight = 20
 
 [[main]]
-  name = "Eric Gerber"
+  name = "Max Robinson"
   parent = "Team Members"
-  pageRef = "EricGerber"
+  pageRef = "maxrobinson"
   weight = 20
 
 [[main]]
-  name = "Mark Fontenot"
+  name = "Maya Ellis"
   parent = "Team Members"
-  pageRef = "MarkFontenot"
+  pageRef = "mayaellis"
   weight = 20
 
 [[main]]
-  name = "A New Guy"
+  name = "Zoya Siddiqui"
   parent = "Team Members"
-  pageRef = "ANewGuy"
+  pageRef = "zoyasiddiqui"
+  weight = 20
+
+[[main]]
+  name = "Areti Makropoulos"
+  parent = "Team Members"
+  pageRef = "aretimakropoulos"
   weight = 20
 
 #[[main]]
