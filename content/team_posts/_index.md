@@ -1,15 +1,15 @@
 ---
-title: "Project - Phase I"
-date: 2024-05-11
+title: "Team"
+date: 2025-05-20
 draft: false
-description: "Our Idea"
+description: "Hello!"
 tags: ["authors", "config", "docs"]
 slug: "index"
 authors:
-  - "eric_gerber"
+  - "mayaellis"
 showAuthorsBadges : false
 ---
 
-# Welcome to Team WeCanDoThis!
+# Welcome to BelgiumSquad!
 
-Welcome to the Professorial Team's Blog
+This is the team blog for the "Best Life" app.
