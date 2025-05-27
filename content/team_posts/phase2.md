@@ -21,16 +21,25 @@ While working with Phase 2 deliverables and considering Phase 1 feedback, we dec
 
 ## Data Visualizations
 
-For our data visualization, we generated five scatter plots using Plotly. These scatter plots illustrate the relationship between quality of life and each of our factors, displaying graphs for quality of life versus healthcare, quality of life versus education, quality of life versus safety, quality of life versus environment, and quality of life versus transportation. 
+For our data visualization, we generated five scatter plots using Plotly. These scatter plots illustrate the relationship between quality of life and each of our factors, displaying graphs for quality of life versus healthcare, quality of life versus education, quality of life versus safety, quality of life versus environment, and quality of life versus transportation.
 
-These visualizations help illustrate any immediately obvious relationships between our chosen factors and quality of life, which will prove integral to our regression model that will use these factors to predict future quality of life. Using these graphs, we can see weak, positive relationships between quality of life and all of our factors, though safety and transit are not as clear in their relationships with quality of life. After seeing these relationships visually, we will be able to better predict how our quality of life regressor model will be impacted by each of these factors. 
+These visualizations help illustrate any immediately obvious relationships between our chosen factors and quality of life, which will prove integral to our regression model that will use these factors to predict future quality of life. Using these graphs, we can see weak, positive relationships between quality of life and all of our factors, though safety and transit are not as clear in their relationships with quality of life. After seeing these relationships visually, we will be able to better predict how our quality of life regressor model will be impacted by each of these factors.
 
 ### Visualizations
+
 ![healthcare](/health_qol.jpg)
 ![education](/edu_qol.jpg)
 ![safety](/safety_qol.jpg)
 ![environment](/env_qol.jpg)
 ![transportation](/inf_qol.jpg)
+
+## Model explanations and plans
+
+We are planning on making two models, a supervised autoregression model with a lag of 1 year (AR1) and a cosine similarity score model. Our AR1 model will be used to predict future values of the happiness index. The current difficulties with this model are that it is very easy to have more features than data points, forcing us to use a gradient descent model instead. We would prefer to avoid this and keep our time lag low so that we can perform linear regression. We have 10 years of data, meaning 10 data points, and 5 features. We are considering adding a sixth feature representing pre, post and during covid. However, this may be collinear with other features because I expect many of the metrics used to vary with covid.
+
+The cosine similarity score model is already implemented and will be used to compare what the student wants (they will input this using sliders) and a country that best matches their input. We have used an inverse-sigmoid function to translate the bounded data from the sliders to the unbounded but standardised data from the APIs. After test running this model it looks like it works pretty well.
+
+This model can be found at https://github.com/mke27/life/blob/main/ml-src/cos_similarity.py
 
 ## Wireframes
 
@@ -61,7 +70,7 @@ This is our ERD for persona 2, the policymaker.
 ![erd4_img](er_diagrams-04.jpg)
 This is our ERD for persona 3, the activist.
 
-## Relational Mapping 
+## Relational Mapping
 
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/6399ce45-7fe8-4d5b-b456-1b6e986de67d" id="jSzj-C2TrnaZ"></iframe></div>
 
