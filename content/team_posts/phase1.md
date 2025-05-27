@@ -58,3 +58,10 @@ Faye Mulligan is a 26 year old Swiss activist. She works at an organization that
 - As a user, I want the countries that have high environmental scores to be removed from my recommendations so that I can focus my efforts.
 - As an environmentalist, I want to compare potential countries on a smaller scale so that I can narrow my search.
 
+## Datasets
+
+For our project, we will be using datasets acquired from Eurostat. We will be using 5 datasets for Health, Education, Transport, Environment, and Safety. These datasets will be the factors that are utilized to compare countries and determine the best country for a student based on their priorities. Thee scores will also be relevant to the policymaker, as he will receive information about his country's lowest scoring factor as well as a similarity score to other EU countries based on their factor scores. The activist will also be matched to countries depending on which factor of interest they select, and they will get to view the rates of change in that factor score for each country on a gradient map.
+
+For quality of life scores, we will be using data from World Happiness Index, which will provide the basis for the predictions in our regression. This will be used in the student persona in order to provide information about previous and future quality of life scores in the countries they are considering.
+
+We will also be scraping data from EU Commission sites pertaining to Health, Education, Transport, Environment, and Safety. These sites will provide the most recent news articles about EU legislation in each of these factors, which will be available for the policymaker to view.
