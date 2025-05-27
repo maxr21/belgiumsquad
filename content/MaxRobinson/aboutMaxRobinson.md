@@ -10,12 +10,6 @@ authors:
 showAuthorsBadges: false
 ---
 
-# My first blog post
+# About Max
 
-This is a test of my new blog.
-
-# Max Robinson
-
-### more about me!
-
-- I am in Leuven, Belgium!
+Currently a rising Junior at Northeastern University studying CS and Maths. I grew up Acton, London until I moved two years ago to Oakland, CA and then to Boston, MA to study as a Global Scholar at Northeastern. I started coding so that I could make video games because as a kid I loved playing Minecraft but had personal contrivances with some features. After making video games and winning a National BAFTA award

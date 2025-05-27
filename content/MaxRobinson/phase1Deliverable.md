@@ -26,7 +26,11 @@ He provided a fresh perspective that I had not considered before. He argued that
 
 ## Individual Contributions to the project
 
-- Exploring project ideas
-- brainstorming different user types and jointly coming up with one
-- testing and verifying API calls are possible for our primary data set
-- testing webscraping is also an option
+- Exploring project ideas.
+  - suggested an idea exploring political sentiment in countries by scraping a variety of diverse news websites and classifying the articles based on the issue they talk about. This could then be used to estimate the most spoken about political issues.
+- brainstorming different user types and jointly coming up with one.
+  - spoke to professors and thought of adding the 'recent policy search' feature to the second persona.
+- testing and verifying API calls are possible for our primary data set.
+  - simply called and analysed necessary API calls.
+- testing webscraping is also an option.
+  - scraped sites and looked over the html to ensure that the data we needed was scrapable.
