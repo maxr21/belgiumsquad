@@ -26,11 +26,7 @@ For our data visualization, we generated five scatter plots using Plotly. These 
 These visualizations help illustrate any immediately obvious relationships between our chosen factors and quality of life, which will prove integral to our regression model that will use these factors to predict future quality of life. Using these graphs, we can see weak, positive relationships between quality of life and all of our factors, though safety and transit are not as clear in their relationships with quality of life. After seeing these relationships visually, we will be able to better predict how our quality of life regressor model will be impacted by each of these factors. 
 
 ### Visualizations
-![healthcare](/healthcare_qol.html)
-![education](/edu_qol.html)
-![safety](/safety_qol.html)
-![environment](/env_qol.html)
-![transportation](/inf_qol.html)
+
 
 ## Wireframes
 
