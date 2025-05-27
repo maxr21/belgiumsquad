@@ -44,20 +44,35 @@ This model can be found at https://github.com/mke27/life/blob/main/ml-src/cos_si
 ## Wireframes
 
 ![wireframe1_img](er_diagrams-06.jpg)
+Title page.
 ![wireframe2_img](er_diagrams-07.jpg)
+Welcome/Home page for Persona 2, Grace.
 ![wireframe3_img](er_diagrams-08.jpg)
+This page shows a gradient map for which Grace can change her priorities. It will display the countries that are most appealing to her and will allow her to navigate to a universities page, a QoL trends page, and a history page.
 ![wireframe4_img](er_diagrams-09.jpg)
+This page allows Grace to select which prior priority sets she wants to compare in the form of the top recommended country.
 ![wireframe5_img](er_diagrams-10.jpg)
+The priority sets that she chooses will show up side by side with each country's past QoL score and predicted scores.
 ![wireframe6_img](er_diagrams-11.jpg)
+This page will display the top 3 universities in Grace's top recommended country. She will be able to click on each one and contact an admissions officer.
 ![wireframe7_img](er_diagrams-12.jpg)
+This page hows the QoL overtime and predicted for one country that Grace clicks on the map.
 ![wireframe8_img](er_diagrams-13.jpg)
+This is Persona 2's (James) landing page.
 ![wireframe9_img](er_diagrams-14.jpg)
+James can view his country's most similar country and also his country's lowest scoring factor. By selecting a factor, he can view recent news from the EU Commission and click links to the articles.
 ![wireframe10_img](er_diagrams-15.jpg)
+James can click on his most similar country in order to view a chart showing that country's similarity score compared to other countries.
 ![wireframe11_img](er_diagrams-16.jpg)
+Landing page for Persona 3, Faye.
 ![wireframe12_img](er_diagrams-17.jpg)
+Faye can select her organization's area of interest and will view a map showing each country's rate of change in that factor. She can click on each country to learn more on the next page.
 ![wireframe13_img](er_diagrams-18.jpg)
+This chart shows the country's factor score over time and the predicted score. The scores of each factor in thi country will also be displayed.
 ![wireframe14_img](er_diagrams-19.jpg)
+This is an opportunity for Faye to post on an external social media site. She can upload a photo and text.
 ![wireframe15_img](er_diagrams-20.jpg)
+Faye can view her recent posts here.
 
 ## ER Diagrams
 
