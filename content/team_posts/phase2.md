@@ -27,30 +27,30 @@ These visualizations help illustrate any immediately obvious relationships betwe
 
 ## Wireframes
 
-![wireframe1_img](er diagrams-06.jpg "Wireframe1")
-![wireframe2_img](er diagrams-07.jpg "Wireframe2")
-![wireframe3_img](er diagrams-08.jpg "Wireframe3")
-![wireframe4_img](er diagrams-09.jpg "Wireframe4")
-![wireframe5_img](er diagrams-10.jpg "Wireframe5")
-![wireframe6_img](er diagrams-11.jpg "Wireframe6")
-![wireframe7_img](er diagrams-12.jpg "Wireframe7")
-![wireframe8_img](er diagrams-13.jpg "Wireframe8")
-![wireframe9_img](er diagrams-14.jpg "Wireframe9")
-![wireframe10_img](er diagrams-15.jpg "Wireframe10")
-![wireframe11_img](er diagrams-16.jpg "Wireframe10")
-![wireframe12_img](er diagrams-17.jpg "Wireframe10")
-![wireframe13_img](er diagrams-18.jpg "Wireframe10")
-![wireframe14_img](er diagrams-19.jpg "Wireframe10")
-![wireframe15_img](er diagrams-20.jpg "Wireframe10")
+![wireframe1_img](er_diagrams-06.jpg)
+![wireframe2_img](er_diagrams-07.jpg)
+![wireframe3_img](er_diagrams-08.jpg)
+![wireframe4_img](er_diagrams-09.jpg)
+![wireframe5_img](er_diagrams-10.jpg)
+![wireframe6_img](er_diagrams-11.jpg)
+![wireframe7_img](er_diagrams-12.jpg)
+![wireframe8_img](er_diagrams-13.jpg)
+![wireframe9_img](er_diagrams-14.jpg)
+![wireframe10_img](er_diagrams-15.jpg)
+![wireframe11_img](er_diagrams-16.jpg)
+![wireframe12_img](er_diagrams-17.jpg)
+![wireframe13_img](er_diagrams-18.jpg)
+![wireframe14_img](er_diagrams-19.jpg)
+![wireframe15_img](er_diagrams-20.jpg)
 
 ## ER Diagrams
 
-![erd1_img](er diagrams-01.jpg "ERD1")
+![erd1_img](er_diagrams-01.jpg)
 This is our global ERD, which encompasses all of the entities and relationships that makeup our database.
-![erd2_img](er diagrams-02.jpg "ERD2")
+![erd2_img](er_diagrams-02.jpg)
 This is our ERD for persona 1, the student.
-![erd3_img](er diagrams-03.jpg "ERD3")
+![erd3_img](er_diagrams-03.jpg)
 This is our ERD for persona 2, the policymaker.
-![erd4_img](er diagrams-04.jpg "ERD4")
+![erd4_img](er_diagrams-04.jpg)
 This is our ERD for persona 3, the activist.
 
