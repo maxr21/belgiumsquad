@@ -2,4 +2,4 @@
 title: "Maya Ellis"
 ---
 
-Hi, I'm Maya Ellis!
+DS and Econ at Northeastern University
