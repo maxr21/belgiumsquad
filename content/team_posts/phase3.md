@@ -22,6 +22,21 @@ showAuthorsBadges: false
 
 Since phase 2, we have made various changes to the data model, which are shown in our entity relationship diagram and relational mapping. We added a User_Role entity to match industry standards and ensure that there can be many different users for each persona. On top of this, we took into consideration that the Post feature, as seen for the activist Faye, did not make a large enough impact and did not add value to the overall project design, so we eliminated that feature in our application and the Post entity in our data model. Instead, for Faye, we included an entity, Organization. This allows the activists to see current organizations working in a specific area, whether that be education, health, environment, or safety. Through this new feature, Faye is able to learn more about organizations in a particular country that align with the factor she is most interested in. Additionally, we made minor changes regarding attributes and relationships in our ever-changing process to build a database that supports our needs. 
 
+### All tables and whether the data will be sourced or generated
+- Similarity: sourced
+- Country: sourced
+- Rate: sourced
+- User: generated
+- User_Role: sourced
+- Organization: generated
+- Preference: sourced
+- Factor: sourced
+- Predicted_Score: sourced
+- University: sourced
+- Policy_News: sourced
+- ML_Country: sourced
+- ML_Scores: sourced
+
 
 ### Data issues
 
@@ -60,3 +75,9 @@ The blueprint model allows retrieving similarity scores from the cosine similari
 The blueprint country allows for the retrieval of all country names, which is used in multiple places in our application. Grace is able to select a country for university recommendations, and James is able to choose a country to view the one most similar to it. The other routes for this blueprint allow for the retrieval of factors and countries, which will be further integrated into our design.
 
 The blueprint faye retrieves organizations based on country_ID and factor_ID, which is implemented in her persona. She can view existing organizations by selecting a country and a factor. 
+
+### Current App 
+
+![homepage_img](home.jpg)
+Home page of our application that all users are greeted with and asks them which user they would like to log in as. Our next step is to have the user be able to choose the username with which they will log in to the persona as. 
+
