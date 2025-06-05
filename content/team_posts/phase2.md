@@ -21,17 +21,23 @@ While working with Phase 2 deliverables and considering Phase 1 feedback, we dec
 
 ## Data Visualizations
 
-For our data visualization, we generated five scatter plots using Plotly. These scatter plots illustrate the relationship between quality of life and each of our factors, displaying graphs for quality of life versus healthcare, quality of life versus education, quality of life versus safety, quality of life versus environment, and quality of life versus transportation.
+For our data visualization, we generated nine plots using Plotly. The first four are scatter plots illustrate the relationship between quality of life and each of our factors, displaying graphs for quality of life versus healthcare, quality of life versus education, quality of life versus safety, and quality of life versus environment. The last five are line plots that visualize health, education, environment, safety, and quality of life over time.
 
-These visualizations help illustrate any immediately obvious relationships between our chosen factors and quality of life, which will prove integral to our regression model that will use these factors to predict future quality of life. Using these graphs, we can see weak, positive relationships between quality of life and all of our factors, though safety and transit are not as clear in their relationships with quality of life. After seeing these relationships visually, we will be able to better predict how our quality of life regressor model will be impacted by each of these factors.
+These visualizations help illustrate any immediately obvious relationships between our chosen factors and quality of life, which will prove integral to our regression model that will use these factors to predict future quality of life. Using these graphs, we can see weak, positive relationships between quality of life and all of our factors, though safety is not as clear in their relationships with quality of life. After seeing these relationships visually, we will be able to better predict how our quality of life regressor model will be impacted by each of these factors, as these visuals can help guide the development of our regressor. 
 
 ### Visualizations
-{{< iframe src="birth_death_EU.html" width="100%" height="600" >}}
-![healthcare](/health_qol.jpg)
-![education](/edu_qol.jpg)
-![safety](/safety_qol.jpg)
-![environment](/env_qol.jpg)
-![transportation](/inf_qol.jpg)
+Factors vs. Quality of Life
+{{< iframe src="health_qol.html" width="100%" height="600" >}}
+{{< iframe src="edu_qol.html" width="100%" height="600" >}}
+{{< iframe src="env_qol.html" width="100%" height="600" >}}
+{{< iframe src="safety_qol.html" width="100%" height="600" >}}
+
+Factors over Time
+{{< iframe src="health_time.html" width="100%" height="600" >}}
+{{< iframe src="edu_time.html" width="100%" height="600" >}}
+{{< iframe src="env_time.html" width="100%" height="600" >}}
+{{< iframe src="safety_time.html" width="100%" height="600" >}}
+{{< iframe src="qol_time.html" width="100%" height="600" >}}
 
 ## Model explanations and plans
 
