@@ -1,9 +1,9 @@
 ---
-title: "Project - Phase II"
+title: "Project - Phase III"
 date: 2025-05-27
 draft: false
 description: "Project Description"
-slug: "phase2post"
+slug: "phase3post"
 tags: ["project", "Setup"]
 authors:
   - "mayaellis"
@@ -43,3 +43,8 @@ This decision has implications for our supervised model as well. Because of the 
 We can solve the above by averaging the data from the previous and next year and inputting it as dummy data in the years that are missing some. We would definitely lose accuracy by doing this but otherwise we would have insufficient data. Alternatively, we could build another ML model to predict the most likely values for those missing years by using the previous and next years for that country. However, I don't think we have the time to implement such a model on such short notice.
 
 Our PCA aims to reduce the number of features from 20 to at most 4, after which we will add a covid column.
+
+### List of Data sources
+
+- Health, Environment, Education, Safety scores and happiness per country per year. (missing datapoints as explained above)
+-
