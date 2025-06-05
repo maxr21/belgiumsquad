@@ -1,6 +1,6 @@
 ---
 title: "Project - Phase III"
-date: 2025-05-27
+date: 2025-06-05
 draft: false
 description: "Project Description"
 slug: "phase3post"
@@ -81,3 +81,17 @@ The blueprint faye retrieves organizations based on country_ID and factor_ID, wh
 ![homepage_img](home.jpg)
 Home page of our application that all users are greeted with and asks them which user they would like to log in as. Our next step is to have the user be able to choose the username with which they will log in to the persona as. 
 
+![homepage_img](gracehome.jpg)
+Clicking the button to act as Grace takes the user to this page which gives them the choice between viewing country recommendations based on their preferences in the factors of education, health, safety, and environment and viewing university recommendations for a chosen country. 
+
+![grace_rec_map_img](grace_rec_map.jpg)
+By choosing to view country recommendations, the user is able to adjust the sliders of each factor to their preference and either save their preference or compare their previous preferences. 
+
+![grace_save_pref_img](grace_save_pref.jpg)
+Once adjusting the sliders to their preferences and clicking save preferences we utilize the cosine similarity model. Currently we are facing some difficulty in the fully implementing the model with the interactive map.
+
+![grace_pref_hist_img](grace_pref_hist.jpg)
+By clicking the option to compare preference history, the user is able to select from their previous runs to compare the top recommendations which will show graphs of the predicted quality of life scores for each country using our time series autoregressive model which we will soon implement.  
+
+![grace_univ_recs_img](grace_univ_recs.jpg)
+By using the sidebar to see university recommendations the user can select from a dropdown of all 27 EU countries and view the 3 top universities with information regarding them. 
