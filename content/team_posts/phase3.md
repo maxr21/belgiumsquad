@@ -40,9 +40,15 @@ To resolve this immediate issue, we decided to drop the infrastructure feature b
 
 This decision has implications for our supervised model as well. Because of the many random missing datapoints across all features, years and countries, we must find a way to plug the gaps.
 
-We can solve the above by averaging the data from the previous and next year and inputting it as dummy data in the years that are missing some. We would definitely lose accuracy by doing this but otherwise we would have insufficient data. Alternatively, we could build another ML model to predict the most likely values for those missing years by using the previous and next years for that country. However, I don't think we have the time to implement such a model on such short notice.
+We can solve the above by averaging the data from the previous and next year and inputting it as dummy data in the years that are missing some. We would definitely lose accuracy by doing this but otherwise we would have insufficient data. Alternatively, we could build another ML model to predict the most likely values for those missing years by using the previous and next years for that country. However, I don't think we have the time to implement such a model on such short notice, so we have updated our data, first removing infrastructure as a factor and filling all other gaps in the data by averaging data from the previous and next year.
 
 Our PCA aims to reduce the number of features from 20 to at most 4, after which we will add a covid column.
+
+### Data for ML
+
+Health, education, safety, and environment will be the features used for both our ML models. Our improved EDA from phase 2 has helped show us that these factors have strong positive correlation between them and quality of life, which lead us to the conclusion that they will be good at helping us predict future quality of life. We removed transportation/infrastructure as a feature due to large gaps in available data, but also, all visualizations created with this factor showed weaker correlation between it and quality of life, which means that it probably wouldn't have helped us too much in our prediction model. 
+
+We will be using health, education, safety, and environment in our cosine similarity model. Users will be able to input their own personal level of significance for each factor, and the relative signficance of each factor will be used to determine the cosine similarity of those chosen factors and countries in the EU.
 
 ### List of Data sources
 
