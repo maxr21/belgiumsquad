@@ -15,16 +15,15 @@ showAuthorsBadges: false
 
 # Project: Phase 3 Deliverable
 
-- provide screenshots of the mocked up app and results of the implemented
-  functionality, including calling the ML model
+
 
 ### Changes to the model since Phase 2
 
 Since phase 2, we have made various changes to the data model, which are shown in our entity relationship diagram and relational mapping. We added a User_Role entity to match industry standards and ensure that there can be many different users for each persona. On top of this, we took into consideration that the Post feature, as seen for the activist Faye, did not make a large enough impact and did not add value to the overall project design, so we eliminated that feature in our application and the Post entity in our data model. Instead, for Faye, we included an entity, Organization. This allows the activists to see current organizations working in a specific area, whether that be education, health, environment, or safety. Through this new feature, Faye is able to learn more about organizations in a particular country that align with the factor she is most interested in. Additionally, we made minor changes regarding attributes and relationships in our ever-changing process to build a database that supports our needs. 
 
-https://maxr21.github.io/belgiumsquad/team_posts/phase2post/#wireframes
+[Updated wireframes](https://maxr21.github.io/belgiumsquad/team_posts/phase2post/#wireframes)
 
-https://maxr21.github.io/belgiumsquad/team_posts/phase2post/#relational-mapping
+[Updated relational mapping](https://maxr21.github.io/belgiumsquad/team_posts/phase2post/#relational-mapping)
 
 ### All tables and whether the data will be sourced or generated
 - Similarity: sourced
