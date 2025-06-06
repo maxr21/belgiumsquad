@@ -42,7 +42,7 @@ https://maxr21.github.io/belgiumsquad/team_posts/phase2post/#relational-mapping
 - ML_Scores: sourced
 
 
-### Data issues
+### Data and ML issues
 
 Upon revisiting our EDA and attempting to write our PCA, we noticed significant gaps in the data we had for
 features such as Happiness index and Infrastructure scores. Many countries completely lacked the needed infrastructure score data, this meant our Cosine similarity model and our planned PCA and Autoregression model needed to be changed. Our Cosine model was inaccurate because it was missing certain countries entirely because they had no data for infrastructure.
@@ -53,7 +53,7 @@ This decision has implications for our supervised model as well. Because of the 
 
 We can solve the above by averaging the data from the previous and next year and inputting it as dummy data in the years that are missing some. We would definitely lose accuracy by doing this but otherwise we would have insufficient data. Alternatively, we could build another ML model to predict the most likely values for those missing years by using the previous and next years for that country. However, I don't think we have the time to implement such a model on such short notice, so we have updated our data, first removing infrastructure as a factor and filling all other gaps in the data by averaging data from the previous and next year.
 
-Our PCA aims to reduce the number of features from 20 to at most 4, after which we will add a covid column.
+We planned to do a PCA to reduce the number of columns we had, but we realized that we didn't need to do this because we had 12 columns of data for 27 countries, which is enough data to not have to do PCA when initially building our regressor model. So, we began building our time-series autoregressor model, which is currently completely built and running as expected, but has not yet been tested or cross-validated.
 
 ### Data for ML
 
