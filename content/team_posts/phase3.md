@@ -82,10 +82,9 @@ Home page of our application that all users are greeted with and asks them which
 ![homepage_img](gracehome.jpg)
 Clicking the button to act as Grace takes the user to this page which gives them the choice between viewing country recommendations based on their preferences in the factors of education, health, safety, and environment and viewing university recommendations for a chosen country. 
 
-![grace_rec_map_img](grace_rec_map.jpg)
+![grace_rec_map_img](grace_map_pref.jpg)
 By choosing to view country recommendations, the user is able to adjust the sliders of each factor to their preference and either save their preference or compare their previous preferences. 
 
-![grace_save_pref_img](grace_map_pref.jpg)
 ![grace_save_pref_img](grace_save_prefe.jpg)
 The user can adjust the sliders to suit their preferences on each factor and click save preferences to see a gradient map using our cosine similarity ML model.
 
