@@ -7,6 +7,9 @@ tags: ["authors", "config", "docs"]
 slug: "index"
 authors:
   - "mayaellis"
+  - "maxrobinson"
+  - "aretimakropoulos"
+  - "zoyasiddiqui"
 showAuthorsBadges : false
 ---
 
