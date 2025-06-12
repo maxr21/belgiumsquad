@@ -1,9 +1,9 @@
 ---
-title: "Phase 3"
+title: "Phase 4"
 date: 2025-06-05
 draft: false
 description: "Areti Makropoulos"
-slug: "aboutphase3"   # if you use, needs to be different for every post
+slug: "aboutphase4"   # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
 authors:
   - "aretimakropoulos"
@@ -12,6 +12,11 @@ showAuthorsBadges : false
 
 # Phase 4 Contributions
 
+- overall UI
+- Home page + user selection
+- My Profile + features
+- updating ERD + REST API matrix
+- README
 
 
 ## Experiences
