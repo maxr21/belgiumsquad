@@ -6,7 +6,7 @@ description: "reflection for my phase 1 deliverable"
 slug: "phase1" # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
 authors:
-  - "maxrobinson"
+  - "Max Robinson"
 showAuthorsBadges: false
 ---
 

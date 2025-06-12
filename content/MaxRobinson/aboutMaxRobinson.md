@@ -6,7 +6,7 @@ description: "my first blog"
 slug: "aboutmax"
 tags: ["authors", "config", "docs"]
 authors:
-  - "maxrobinson"
+  - "Max Robinson"
 showAuthorsBadges: false
 ---
 

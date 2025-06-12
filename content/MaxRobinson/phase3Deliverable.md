@@ -6,7 +6,7 @@ description: "Reflection For My Phase 3 Deliverable"
 slug: "phase3"
 tags: ["authors", "config", "docs"]
 authors:
-  - "maxrobinson"
+  - "Max Robinson"
 showAuthorsBadges: false
 ---
 
