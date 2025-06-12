@@ -15,9 +15,7 @@ showAuthorsBadges: false
 
 # Project: Phase 3 Deliverable
 
-
-
-### Changes to the model since Phase 2
+## Changes to the model since Phase 2
 
 Since phase 2, we have made various changes to the data model, which are shown in our entity relationship diagram and relational mapping. We added a User_Role entity to match industry standards and ensure that there can be many different users for each persona. On top of this, we took into consideration that the Post feature, as seen for the activist Faye, did not make a large enough impact and did not add value to the overall project design, so we eliminated that feature in our application and the Post entity in our data model. Instead, for Faye, we included an entity, Organization. This allows the activists to see current organizations working in a specific area, whether that be education, health, environment, or safety. Through this new feature, Faye is able to learn more about organizations in a particular country that align with the factor she is most interested in. Additionally, we made minor changes regarding attributes and relationships in our ever-changing process to build a database that supports our needs. 
 
@@ -41,7 +39,7 @@ Since phase 2, we have made various changes to the data model, which are shown i
 - ML_Scores: sourced
 
 
-### Data and ML issues
+## Data and ML issues
 
 Upon revisiting our EDA and attempting to write our PCA, we noticed significant gaps in the data we had for
 features such as Happiness index and Infrastructure scores. Many countries completely lacked the needed infrastructure score data, this meant our Cosine similarity model and our planned PCA and Autoregression model needed to be changed. Our Cosine model was inaccurate because it was missing certain countries entirely because they had no data for infrastructure.
@@ -54,13 +52,13 @@ We can solve the above by averaging the data from the previous and next year and
 
 We planned to do a PCA to reduce the number of columns we had, but we realized that we didn't need to do this because we had 12 columns of data for 27 countries, which is enough data to not have to do PCA when initially building our regressor model. So, we began building our time-series autoregressor model, which is currently completely built and running as expected, but has not yet been tested or cross-validated.
 
-### Data for ML
+## Data for ML
 
 Health, education, safety, and environment will be the features used for both our ML models. Our improved EDA from phase 2 has helped show us that these factors have strong positive correlation between them and quality of life, which lead us to the conclusion that they will be good at helping us predict future quality of life. We removed transportation/infrastructure as a feature due to large gaps in available data, but also, all visualizations created with this factor showed weaker correlation between it and quality of life, which means that it probably wouldn't have helped us too much in our prediction model. 
 
 We will be using health, education, safety, and environment in our cosine similarity model. Users will be able to input their own personal level of significance for each factor, and the relative signficance of each factor will be used to determine the cosine similarity of those chosen factors and countries in the EU.
 
-### Rest API Matrix
+## Rest API Matrix
 <div style="width: 960px; height: 720px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:960px; height:720px" src="https://lucid.app/documents/embedded/7c38fc78-a0ca-4f35-a835-330b3ea030ba" id="BBhm5xdp_0DS"></iframe></div>
 
 
@@ -74,7 +72,7 @@ The blueprint country allows for the retrieval of all country names, which is us
 
 The blueprint faye retrieves organizations based on country_ID and factor_ID, which is implemented in her persona. She can view existing organizations by selecting a country and a factor. 
 
-### Current App 
+## Current App 
 
 ![homepage_img](home.jpg)
 Home page of our application that all users are greeted with and asks them which user they would like to log in as. Our next step is to have the user be able to choose the username with which they will log in to the persona as. 
