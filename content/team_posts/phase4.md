@@ -50,6 +50,20 @@ Ultimately, it seems that our residual plots are not the best, so some assumptio
 
 ## Software Architecture
 
+The Best Life application uses a three tier architecture with the frontend built in Streamlit which communicates with Flask REST API and the backend with a MySQL database where data is stored. 
+
+### UI Layer
+
+### REST API Layer
+
+A great description of the endpoints of our API lies in our REST API Matrix as seen below. 
+
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/7c38fc78-a0ca-4f35-a835-330b3ea030ba" id="qcroFt0rlEWb"></iframe></div>
+
+
+### Database Layer
+
+The database layer contains 12 entities and is further described in the section below. 
 
 ## Database Model
 
@@ -59,7 +73,7 @@ The final database model is best displayed in our updated entity relationship di
 
 In our database model we have 12 entities which structure and organize our data for our Best Life application. 
 
-**ML_Score_US**, **ML_Score**, and **Predicted_Score** store the data used by our machine learning models. **ML_Score_US** contains the unstandardized scores of each country by year for our factors of health, education, safety, and environment as well as the quality of life score. **ML_Score** stores the standardized version of the same attributes, used for the cosine similary ML model.**Predicted_Score** holds the the weights and lags produced by our times series autoregressive model, allowing for prediction.
+**ML_Score_US**, **ML_Score**, and **Predicted_Score** store the data used by our machine learning models. **ML_Score_US** contains the unstandardized scores of each country by year for our factors of health, education, safety, and environment as well as the quality of life score. **ML_Score** stores the standardized version of the same attributes, used for the cosine similary ML model. **Predicted_Score** holds the the weights and lags produced by our times series autoregressive model, allowing for prediction.
 
 **User** and **User_Role** support user login with role based experiences. **User** stores the specific information about the user and **User_Role** allows for each **User** to have a role, ensuring the features and pages accessible to the user. 
 
