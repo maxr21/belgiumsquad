@@ -15,6 +15,8 @@ showAuthorsBadges: false
 
 # Project: Phase 4 Deliverable
 
+[Check out our developed application!] (https://github.com/mke27/life)
+
 ## ML Models
 
 Our **time-series autoregressive** model uses quality of life scores taken from the World Happiness Index for years 2011-2022 with a five-year lag to predict quality of life scores for a specific country five years into the future (or really, five years past the end of our data, so up to 2027) with relative accuracy. The features of this model included 26 dummy columns of country indicators for each EU country, and then our five lag columns for our quality of life data. On the front-end, this model displays as a graph of quality of life scores over time with a line for either one country, or two countries to compare them. There is a line of demarcation between historical and predicted scores.
@@ -51,7 +53,7 @@ _Discussion_: These plots are supposed to be a random line of points across zero
 ![orderede](/rvo.png)
 _Discussion_: This plot is supposed to have no patterns - if there are, autocorrelation is violated. Once again, this seems to be generally true, but there seem to be outliers at particular points in the indices. There may be some autocorrelation, but as this is an autoregressive model, that is to be expected.
 
-**Historgram of Residuals**
+**Histogram of Residuals**
 ![histogram](/histogram.png)
 _Discussion_: The residuals should be generally symmetric about zero. This is not true here. There are more negative residuals, and there is not a normal distribution of residuals.
 
@@ -59,12 +61,48 @@ Ultimately, it seems that our residual plots are not the best, so some assumptio
 
 ## Software Architecture
 
+<<<<<<< improvement/phase4-team
+The Best Life application uses a three tier architecture with a Streamlit frontend, a Flask REST API serving as the middle layer, and a MySQL relational database on the backend.
+=======
 The Best Life application uses a three tier architecture with the frontend built in Streamlit which communicates with Flask REST API and the backend with a MySQL database where data is stored.
+>>>>>>> main
 
 ### UI Layer
 
+Our final UI layer evolved from [wireframes] (https://maxr21.github.io/belgiumsquad/team_posts/phase2post/#wireframes) with a broad concept into a couple of [`designed pages`] (https://maxr21.github.io/belgiumsquad/team_posts/phase3post/#current-app), and finally matured into the fully implemented design.
+
+Through carefully designed routes we strove to deliver personalized experiences whether that be for the prospective university student, policymaker, or activist.
+
+The **prospective university student** is able to view country recommendations based on sliders that allow them to weigh how important each factor is to them, receiving a top country that is most similar to their needs. They are able to view past preferences and compare these recommendations based on factor scores and predicted quality of life. The prospective university student is also able to select a country of their choice to view top universities, aiding in their academic pursuit. 
+
+The **policymaker** can view recent policy news filtered based on factor of concern in order to learn more and make well informed decisions regarding the overall quality of life of their citizens. Additionally, they are able to view countries similar to their own in order to learn more from others and apply it to their own country. Policymakers are able to consider other countries and implement policy that they see working into their own country.
+
+The **activist** is able to view map of expansion recommendations based on selecting a factor which displays a mpa demonstrating countries of greatest need. They are also able to compare historical and predicted quality of life scores between two countries. Lastly, they are able to view existing organizations in the country of their choice based on selecting a country and factor, allowing them to connect with like minded individuals and expand their outreach.
+
+All personas have access to an about page explaining the vision and purpose of our app and a profile section where they can edit their name, update their username, or delete their profile all together. 
+
 ### REST API Layer
 
+<<<<<<< improvement/phase4-team
+Our REST API provides the connection between the UI and database layers, allowing for data retrieval and interaction for app functionality.
+
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/7c38fc78-a0ca-4f35-a835-330b3ea030ba" id="qcroFt0rlEWb"></iframe></div>
+
+**Blueprints**
+
+- **users** consists of routes that handle user authentication, profile changes, and role-based access.
+- **country** consists of country-related queries.
+- **faye** has routes specific to the student persona as it manages preferences and university ranking endpoints
+- **grace** contains routes specifc to the activist persona as it retrieves organizations by country/factor.
+- **james** consists of routes for the policymaker persona as it exposes country similarity and policy news.
+- **model** provides access to ML scores (standardized and unstandardized) and predictions
+
+Each blueprint allows for user interaction providing the connection between the database layer, getting the information needed to display to make all of these UI features possible. 
+
+### Database Layer
+
+The database layer contains 12 entities that form the foundation of our data model. A full explanation of the database schema is provided in the following section
+=======
 A great description of the endpoints of our API lies in our REST API Matrix as seen below.
 
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/7c38fc78-a0ca-4f35-a835-330b3ea030ba" id="qcroFt0rlEWb"></iframe></div>
@@ -72,10 +110,13 @@ A great description of the endpoints of our API lies in our REST API Matrix as s
 ### Database Layer
 
 The database layer contains 12 entities and is further described in the section below.
+>>>>>>> main
 
 ## Database Model
 
-The final database model is best displayed in our updated entity relationship diagram and relational mapping. Here is the global relational mapping.
+The final database model is best displayed in our updated entity relationship diagram and relational mapping. Here is our final entity relationship diagram and global relational mapping.
+
+[erd1_img](er_diagrams-01.jpg)
 
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/6399ce45-7fe8-4d5b-b456-1b6e986de67d" id="XoqoXAboBGN4"></iframe></div>
 
@@ -89,6 +130,10 @@ In our database model we have 12 entities which structure and organize our data 
 
 **University** stores information on top universities within each country which assists the prospective university student persona in evaluating academic opportunities. **Preference** stores the user's selections regarding how much they weigh the value of each factor (health, education, safety, environment) enabling personalized country recommendation.
 
+<<<<<<< improvement/phase4-team
+For the policymaker persona, **Similarity** provides data on countries similar to another country derived from cosine similarity calculations which enables them to explore comparative insights. **Policy_News** stores web-scraped recent policy articles for each country allowing policymakers to stay informed and make well informed decisions. 
+=======
 For the policymaker persona, **Similarity** provides data on countries similar to another country derived from cosine similarity calculations which enables them to explore comparative insights. **Policy_News** stores web-scraped recent policy artices for each country allowing policymakers to stay informed and make well informed decisions.
+>>>>>>> main
 
 **Organization** contains information about organizations in specific countries addressing certain factors, so activists can find causes aligned with their interests.
