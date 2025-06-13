@@ -12,12 +12,6 @@ authors:
   - "zoyasiddiqui"
 showAuthorsBadges: false
 ---
-Create new team and individual blog posts which
-- demonstrate fundamental understanding of ML models and their
-implementation in the software architecture
-- Incl. verifying checking of all model assumptions and predictive
-checks (things not included in the web app)
-- describe software architecture and final version of database model
 
 # Project: Phase 4 Deliverable
 
@@ -56,4 +50,23 @@ Ultimately, it seems that our residual plots are not the best, so some assumptio
 
 ## Software Architecture
 
+
 ## Database Model
+
+The final database model is best displayed in our updated entity relationship diagram and relational mapping. Here is the global relational mapping.
+
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/6399ce45-7fe8-4d5b-b456-1b6e986de67d" id="XoqoXAboBGN4"></iframe></div>
+
+In our database model we have 12 entities which structure and organize our data for our Best Life application. 
+
+**ML_Score_US**, **ML_Score**, and **Predicted_Score** store the data used by our machine learning models. **ML_Score_US** contains the unstandardized scores of each country by year for our factors of health, education, safety, and environment as well as the quality of life score. **ML_Score** stores the standardized version of the same attributes, used for the cosine similary ML model.**Predicted_Score** holds the the weights and lags produced by our times series autoregressive model, allowing for prediction.
+
+**User** and **User_Role** support user login with role based experiences. **User** stores the specific information about the user and **User_Role** allows for each **User** to have a role, ensuring the features and pages accessible to the user. 
+
+**Country** plays a crucial role with many relationships as much of our data being stored is country specific, this table is referenced by many entities. Additionally, **Factor** contains the names of the four key areas which is health, education, safety, or environment, allowing for consistent referencing.
+
+**University** stores information on top universities within each country which assists the prospective university student persona in evaluating academic opportunities. **Preference** stores the user's selections regarding how much they weigh the value of each factor (health, education, safety, environment) enabling personalized country recommendation.
+
+For the policymaker persona, **Similarity** provides data on countries similar to another country derived from cosine similarity calculations which enables them to explore comparative insights. **Policy_News** stores web-scraped recent policy artices for each country allowing policymakers to stay informed and make well informed decisions. 
+
+**Organization** contains information about organizations in specific countries addressing certain factors, so activists can find causes aligned with their interests. 
