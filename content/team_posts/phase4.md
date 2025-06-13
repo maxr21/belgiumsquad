@@ -15,7 +15,7 @@ showAuthorsBadges: false
 
 # Project: Phase 4 Deliverable
 
-[Check out our developed application!] (https://github.com/mke27/life)
+[Check out our developed application!](https://github.com/mke27/life)
 
 ## ML Models
 
@@ -61,15 +61,11 @@ Ultimately, it seems that our residual plots are not the best, so some assumptio
 
 ## Software Architecture
 
-<<<<<<< improvement/phase4-team
 The Best Life application uses a three tier architecture with a Streamlit frontend, a Flask REST API serving as the middle layer, and a MySQL relational database on the backend.
-=======
-The Best Life application uses a three tier architecture with the frontend built in Streamlit which communicates with Flask REST API and the backend with a MySQL database where data is stored.
->>>>>>> main
 
 ### UI Layer
 
-Our final UI layer evolved from [wireframes] (https://maxr21.github.io/belgiumsquad/team_posts/phase2post/#wireframes) with a broad concept into a couple of [`designed pages`] (https://maxr21.github.io/belgiumsquad/team_posts/phase3post/#current-app), and finally matured into the fully implemented design.
+Our final UI layer evolved from [wireframes](https://maxr21.github.io/belgiumsquad/team_posts/phase2post/#wireframes) with a broad concept into a couple of [`designed pages`](https://maxr21.github.io/belgiumsquad/team_posts/phase3post/#current-app), and finally matured into the fully implemented design.
 
 Through carefully designed routes we strove to deliver personalized experiences whether that be for the prospective university student, policymaker, or activist.
 
@@ -83,7 +79,6 @@ All personas have access to an about page explaining the vision and purpose of o
 
 ### REST API Layer
 
-<<<<<<< improvement/phase4-team
 Our REST API provides the connection between the UI and database layers, allowing for data retrieval and interaction for app functionality.
 
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/7c38fc78-a0ca-4f35-a835-330b3ea030ba" id="qcroFt0rlEWb"></iframe></div>
@@ -102,15 +97,6 @@ Each blueprint allows for user interaction providing the connection between the 
 ### Database Layer
 
 The database layer contains 12 entities that form the foundation of our data model. A full explanation of the database schema is provided in the following section
-=======
-A great description of the endpoints of our API lies in our REST API Matrix as seen below.
-
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/7c38fc78-a0ca-4f35-a835-330b3ea030ba" id="qcroFt0rlEWb"></iframe></div>
-
-### Database Layer
-
-The database layer contains 12 entities and is further described in the section below.
->>>>>>> main
 
 ## Database Model
 
@@ -130,10 +116,8 @@ In our database model we have 12 entities which structure and organize our data 
 
 **University** stores information on top universities within each country which assists the prospective university student persona in evaluating academic opportunities. **Preference** stores the user's selections regarding how much they weigh the value of each factor (health, education, safety, environment) enabling personalized country recommendation.
 
-<<<<<<< improvement/phase4-team
 For the policymaker persona, **Similarity** provides data on countries similar to another country derived from cosine similarity calculations which enables them to explore comparative insights. **Policy_News** stores web-scraped recent policy articles for each country allowing policymakers to stay informed and make well informed decisions. 
-=======
+
 For the policymaker persona, **Similarity** provides data on countries similar to another country derived from cosine similarity calculations which enables them to explore comparative insights. **Policy_News** stores web-scraped recent policy artices for each country allowing policymakers to stay informed and make well informed decisions.
->>>>>>> main
 
 **Organization** contains information about organizations in specific countries addressing certain factors, so activists can find causes aligned with their interests.
