@@ -100,9 +100,8 @@ The database layer contains 12 entities that form the foundation of our data mod
 
 ## Database Model
 
-The final database model is best displayed in our updated entity relationship diagram and relational mapping. Here is our final entity relationship diagram and global relational mapping.
+The final database model is best displayed in our updated relational mapping. Here is our final global relational mapping.
 
-[erd1_img](er_diagrams-01.jpg)
 
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/6399ce45-7fe8-4d5b-b456-1b6e986de67d" id="XoqoXAboBGN4"></iframe></div>
 
