@@ -12,10 +12,6 @@ showAuthorsBadges : false
 
 # About Areti Makropoulos
 
-<div style="float: right; margin-left: 20px; width: 250px;">
-  <img src="areti.jpg" alt="Areti Pic" style="width: 100%;" />
-</div>
-
 Hey! My name is Areti Makropoulos, and I am a CS student at Northeastern University. I am currently studying abroad in Belgium to expand my technical skills and gain a broader understanding of cultural and international government. Learning more about databases in CS 3200 and working on a team project allows me to continue learning and applying my skills.
 
 ## Favorites In Belgium
