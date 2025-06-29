@@ -2,8 +2,8 @@
 title: "Individual Reflection 4"
 date: 2025-06-12
 draft: false
-description: "reflection for my phase 1 deliverable"
-slug: "phase1" # if you use, needs to be different for every post
+description: "Reflection for my phase 4 deliverable"
+slug: "phase4"
 tags: ["authors", "config", "docs"]
 authors:
   - "Max Robinson"
@@ -24,4 +24,4 @@ showAuthorsBadges: false
 
 # Enjoyable fun activites
 
-Unfortunately I caught ill towards the end of the week and couldn't attend as many activities as I wanted to but I was able to go to C-mine, the old coal mine in Genk. It was really cool seeing how impressive the engineering was behind these massive mines. Also very sad to hear about the conditions for the workers.
+Unfortunately I caught ill towards the end of the week and couldn't attend as many activities as I wanted to but I was able to go to C-mine, the old coal mine in Genk. It was really cool seeing how impressive the engineering was behind these massive mines.

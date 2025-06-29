@@ -2,7 +2,7 @@
 title: "Individual Reflection 2"
 date: 2025-05-27
 draft: false
-description: "Reflection For My Phase 2 Deliverable"
+description: "Reflection for my phase 2 deliverable"
 slug: "phase2"
 tags: ["authors", "config", "docs"]
 authors:

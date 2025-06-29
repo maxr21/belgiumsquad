@@ -2,8 +2,8 @@
 title: "Individual Reflection"
 date: 2025-05-20
 draft: false
-description: "reflection for my phase 1 deliverable"
-slug: "phase1" # if you use, needs to be different for every post
+description: "Reflection for my phase 1 deliverable"
+slug: "phase1"
 tags: ["authors", "config", "docs"]
 authors:
   - "Max Robinson"
